@@ -15,6 +15,9 @@
 main{
 
 }
+section{
+  
+}
 .primary-btn{
     font-weight: 600;
     font-size: 20px;
@@ -88,6 +91,147 @@ header .nav ul li a:hover{
     width: 100%;
  }
 
+ /* our-features seaction style */
+.our-features{
+    display: flex;
+    align-items: center;
+}
+.our-features .features-img{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 24px;
+    width: 100%;
+}
+.our-features .features-img img{
+    width: 100%;
+}
+.our-features .features-info{
+    margin-left: 76px;
+}
+.our-features .features-info .features-info-taitle{
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 53px;
+    color: #727272;
+    margin-bottom: 24px;
+}
+.our-features .features-info .features-info-span1{
+    font-weight: 700;
+    color: #131313;
+}
+.our-features .features-info .features-info-span2{
+    font-weight: 700;
+    color: #FF900E;
+}
+.our-features .features-info .features-info-description{
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    margin-bottom: 32px;
+}
+
+
+/* our-experience section style */
+.our-experiences{
+    display: flex;
+    gap: 54px;
+}
+.our-experience{
+    margin-top: 20px;
+}
+.our-experience .experience-heading{
+    border-left: 5px solid #FF900E;
+}
+.our-experience .experience-heading .experience-heading-title{
+    margin-left: 21px;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
+    margin-bottom: 24px;
+    
+}
+.our-experience .experience-heading-discription{
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    margin-bottom: 30px;
+    
+}
+.our-experience .experience-info{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);  
+    padding: 30px;
+    margin-bottom: 20px;
+}
+.our-experience .experience-info .experience-info-title{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #131313;
+    margin-bottom: 10px;
+}
+.our-experience .experience-info .experience-info-discription{
+    font-size: 16px;
+    line-height: 22px;
+    color: #727272;
+}
+
+.our-experience-img{
+    position: relative;
+}
+.our-experience-img .work-experience{
+    position: absolute;
+    bottom: 0px;
+    width: 258px;
+    background: #FF900E;
+    padding: 42px 45px;
+}
+.our-experience-img .work-experience .year{
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 70px;
+    color: #FFFFFF;
+}
+.our-experience-img .work-experience .experience{
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 40px;
+    color: #FFFFFF;
+}
+
+/* some-facts seaction syle */
+.some-facts{
+    width: 542px;
+}
+.some-facts-title{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
+    margin-bottom: 24px;
+}
+.some-facts-description{
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -147,4 +291,50 @@ header .nav ul li a:hover{
         margin-top: 30px;
         margin-bottom: 25px;
     }
+
+    .our-features {
+        display: block;
+        margin-top: 50px;
+    }
+    .our-features .features-img {
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 24px;
+        align-items: center;
+        justify-content: center;
+    }
+    .our-features .features-info {
+         margin-left: 0px;
+         margin-top: 25px;
+    }
+
+    .our-experience-img img{
+        width: 100%;
+    }   
+    .our-experiences {
+        display: block;
+        margin-top: 50px;
+    }
+    .our-experience .experience-heading .experience-heading-title {
+        line-height: 50px;
+        margin-bottom: 24px;
+    }
+    .our-experience-img .work-experience {
+        bottom: -55px;
+        width: 50%;
+        padding: 25px 35px;
+    }
+    .our-experience-img .work-experience .year {
+        font-size: 35px;
+        line-height: 60px;
+    }
+    .our-experience-img .work-experience .experience {
+        font-size: 20px;
+        line-height: 38px;
+    }
+
+    .some-facts{
+        margin-top: 70px;
+        width: 100%;
+    }
+   
 }
