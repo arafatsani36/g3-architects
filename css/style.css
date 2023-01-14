@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,600;0,800;1,400;1,600&display=swap');
+*{
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    outline: none;
+    border: none;
+}
+.container{
+    max-width: 1440px;
+    padding: 50px 180px;
+}
+main{
+
+}
+.primary-btn{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+    background: #FF900E;
+    border-radius: 8px;
+    padding: 20px 25px;
+}
+/* header style */
+header{
+    background: rgba(255, 144, 14, 0.1);
+   
+}
+header .nav{
+    display: flex;
+    justify-content: space-between;
+}
+header .nav .logo{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
+}
+header .nav ul{
+   display: flex;
+}
+header .nav ul li{
+    margin-left: 30px;
+}
+header .nav ul li a{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color: #424242;
+    transition: 1s linear;
+}
+header .nav ul li a:hover{
+    color: #000000;
+}
+header .nav ul li a:hover{
+    color: #000000;
+}
+
+.header-banner{
+   margin-top: 100px;
+}
+.header-banner .banner-info{
+    width: 862px;
+    margin: 0 auto;
+    text-align: center;
+}
+.header-banner .banner-info .banner-title{
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    color: #131313;
+    margin-bottom: 25px;
+}
+.header-banner .banner-info .banner-description{
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    margin-bottom: 32px;
+}
+.header-banner .banner-img{
+   margin-top: 50px;
+   margin-bottom: 45px;
+}
+.header-banner .banner-img img{
+    width: 100%;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* responsive css */
+@media (max-width: 576px) {
+
+    .container {
+        padding: 10px 15px;
+    }
+    .primary-btn {
+        padding: 10px 15px;
+    }
+    header .nav .logo {
+        font-size: 30px;
+        line-height: 53px;
+    }
+    header .nav {
+         display: block; 
+    }
+    header .nav ul {
+        display: block;
+    }
+    header .nav ul li {
+        margin-left: 0px; 
+    }
+    .header-banner {
+        margin-top: 50px;
+    }
+    .header-banner .banner-info{
+        width: 100%;
+        margin: 0;
+        text-align: none;
+    }
+    .header-banner .banner-info .banner-title {
+        font-size: 30px;
+        line-height: 50px;
+        margin-bottom: 15px;
+    }
+    .header-banner .banner-info .banner-description {
+        margin-bottom: 25px;
+    }
+    .header-banner .banner-img {
+        margin-top: 30px;
+        margin-bottom: 25px;
+    }
+}
