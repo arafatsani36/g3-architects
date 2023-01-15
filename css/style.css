@@ -270,18 +270,6 @@ header .nav ul li a:hover{
     gap: 100px;
 }
 
-/* footer style */
-footer{
-    background: #FFF4E7;
-    border-radius: 8px;
-}
-footer .copyright{
-    text-align: center;
-    font-size: 20px;
-    line-height: 23px;
-    color: #424242;
-}
-
 /* our team member section style */
 .our-team-member-title{
     text-align: center;
@@ -310,6 +298,20 @@ footer .copyright{
     color: #000;
     margin-top: 20px;
 }
+
+/* footer style */
+footer{
+    background: #FFF4E7;
+    border-radius: 8px;
+}
+footer .copyright{
+    text-align: center;
+    font-size: 20px;
+    line-height: 23px;
+    color: #424242;
+}
+
+
 
 
 
